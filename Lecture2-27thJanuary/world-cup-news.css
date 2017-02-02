@@ -1,0 +1,57 @@
+div#wrapper {
+    width: 700px;
+    height: 730px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #a6e1ec;
+}
+
+div#wrapper q::before{
+    content: open-quote;
+}
+
+div#wrapper q::after{
+    content: close-quote;
+}
+
+/*div#stad1{*/
+    /*border: 1px solid #000000;*/
+    /*vertical-align: baseline;*/
+    /*padding: 10px;*/
+/*}*/
+
+/*div#stad2{*/
+    /*border: 1px solid #000000;*/
+    /*vertical-align: baseline;*/
+    /*padding: 10px;*/
+/*}*/
+
+/*div#stad3{*/
+
+    /*border: 1px solid #000000;*/
+    /*vertical-align: baseline;*/
+    /*padding: 10px;*/
+/*}*/
+
+.text{
+    color: #2ea620;
+    /*border: 1px solid #5bc0de;*/
+    /*padding: 10px;*/
+    /*margin: 0 auto;*/
+}
+
+.text li{
+    width: 520px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #000000 ;
+    list-style-position:inside;
+}
+
+div#wrapper img{
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

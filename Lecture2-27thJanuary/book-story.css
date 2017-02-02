@@ -1,0 +1,25 @@
+div#wrapper{
+    width: 300px;
+    background-color: #dddddd;
+    border: 1px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+div#wrapper p{
+    font-size: 18px;
+}
+
+div#wrapper h1{
+    text-align: center;
+}
+
+div#wrapper q::before{
+    content: open-quote;
+}
+
+div#wrapper q::after{
+    content: close-quote;
+}
+
+
