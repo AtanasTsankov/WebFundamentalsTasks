@@ -1,0 +1,156 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    background-color: #24437C;
+    height: 500px;
+}
+nav{
+    /*margin-top: 15px;*/
+}
+
+.nav-brand{
+    width: 130px;
+    height: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    float: left;
+}
+
+.nav-primary {
+    list-style-type: none;
+    float: right;
+    margin-right: 25px;
+
+}
+
+.nav-primary li{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.cta-btn{
+    border-radius: 10px;
+    background-color: #3DC1EF;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.nav-primary li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+header{
+    text-align: center;
+}
+
+.header-title{
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 130px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.header-subtitle{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    color: #2D72A5;
+    font-weight: 100;
+}
+
+#button-container{
+    margin-top: 45px;
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+}
+
+.header-btn{
+    padding: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.header-services{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+.header-services li{
+    display: inline-block;
+    margin: 40px;
+
+}
+
+.header-services li:hover{
+    background-color: #3DC1EF;
+    cursor: pointer;
+}
+
+.service article{
+    width: 300px;
+    height: 500px;
+    color: #ffffff;
+}
+
+.service-title{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.service-intro{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+    flex: 1;
+
+}
+
+.service-link{
+    padding-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+

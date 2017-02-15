@@ -1,0 +1,311 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    height: 780px;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+
+body > nav{
+    color: #ffffff;
+}
+
+nav{
+    background-color: #C6AE95;
+    padding-top: 30px;
+    height: 32px;
+    text-align: center;
+}
+
+header{
+    padding-top: 50px;
+    background-color: #C6AE95;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brand{
+    float: left;
+    color:#ffffff;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+
+.nav-primary{
+    /*margin-top: -5px;*/
+    margin-right: 60px;
+    /*transform: rotate(180deg);*/
+    float: right;
+}
+
+.nav-item{
+    display: inline-block;
+    /*float: right;*/
+    /*font-size: 1.2rem;*/
+    /*transform: rotate(-180deg);*/
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.button-cta{
+    border: solid;
+    border-color: #ffffff;
+    border-radius: 30px;
+    padding-right: 10px;
+    height: 30px;
+    vertical-align: middle;
+    padding-top: 12px;
+}
+
+.button-cta a{
+
+    text-align: center;
+}
+
+.button-cta:hover{
+    background-color: #867260;
+    border-color: #C6AE95;
+    cursor: pointer;
+}
+
+.header-title{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 3rem;
+    /*padding-left: 100px;*/
+}
+
+.header-potato{
+    padding-top: 30px;
+    width: 20%;
+    height: 20%;
+}
+
+.header-subtitle{
+    color:#ffffff;
+    text-transform: capitalize;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+.features{
+    background-image: url("img/potato-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+.features-title{
+    padding-top: 200px;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.features-subtitle{
+    width: 450px;
+    text-align: center;
+    margin-left: 550px;
+    padding-top: 15px;
+    font-weight: lighter;
+}
+
+.buy-now{
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.order-title{
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.potato-types{
+    margin-top: 30px;
+}
+
+.potato{
+    display: inline-block;
+    padding: 20px;
+    border-right: solid;
+    border-color: #9C9C9C;
+}
+
+.potato-title{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.potato-img{
+    width: 180px;
+    height: 120px;
+    padding-top: 60px;
+}
+
+.potato-features{
+    list-style: none;
+}
+
+.potato-description{
+    text-decoration: none;
+    padding: 20px;
+    color: #C6C1CF;
+    font-size: 1.2rem;
+}
+
+.btn-order{
+    border-radius: 20px;
+    border: solid;
+    border-color: #A0D03E;
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #A0D03E;
+    font-size: 1.3rem;
+}
+
+.btn-order:hover{
+    background-color: #A0D03E;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.potato-price{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #C6C1CF;
+}
+
+footer{
+    height: 40px;
+    background-color: #867260;
+    text-align: center;
+}
+
+.footer-text{
+    color: #ffffff;
+    display: inline-block;
+    padding-top: 15px;
+}

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+body{
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    background-image: url("images/bg.jpg");
+}
+
+body > header{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    color: #FBFF00;
+    height: 40px;
+    font-size: 1.8rem;
+    background-color: #552b55;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBzdG9wLWNvbG9yPSIjZmYwMDAwIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNmZjAwMDAiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjMzMjk5OTk5OTk5OTk5OTk2Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzAwODAwMCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMzMyOTk5OTk5OTk5OTk5OTYiLz48c3RvcCBzdG9wLWNvbG9yPSIjMDA4MDAwIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC41Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzAwODAwMCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuNjY1OTk5OTk5OTk5OTk5OSIvPjxzdG9wIHN0b3AtY29sb3I9IiMwMDAwZmYiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjY2NTk5OTk5OTk5OTk5OTkiLz48c3RvcCBzdG9wLWNvbG9yPSIjMDAwMGZmIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 0%,color-stop(0, rgb(255, 0, 0)),color-stop(0.333, rgb(255, 0, 0)),color-stop(0.333, rgb(0, 128, 0)),color-stop(0.5, rgb(0, 128, 0)),color-stop(0.666, rgb(0, 128, 0)),color-stop(0.666, rgb(0, 0, 255)),color-stop(1, rgb(0, 0, 255)));
+    /* Android 2.3 */
+    background-image: -webkit-linear-gradient(left,rgb(255, 0, 0) 0%,rgb(255, 0, 0) 33.3%,rgb(0, 128, 0) 33.3%,rgb(0, 128, 0) 50%,rgb(0, 128, 0) 66.6%,rgb(0, 0, 255) 66.6%,rgb(0, 0, 255) 100%);
+    /* IE10+ */
+    background-image: linear-gradient(to right,rgb(255, 0, 0) 0%,rgb(255, 0, 0) 33.3%,rgb(0, 128, 0) 33.3%,rgb(0, 128, 0) 50%,rgb(0, 128, 0) 66.6%,rgb(0, 0, 255) 66.6%,rgb(0, 0, 255) 100%);
+    background-image: -ms-linear-gradient(left,rgb(255, 0, 0) 0%,rgb(255, 0, 0) 33.3%,rgb(0, 128, 0) 33.3%,rgb(0, 128, 0) 50%,rgb(0, 128, 0) 66.6%,rgb(0, 0, 255) 66.6%,rgb(0, 0, 255) 100%);
+}
+
+aside{
+    border-radius: 15px;
+    background-color: rgba(245, 230, 254, 0.9);
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+aside  nav  header{
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+body nav ul li:before{
+    content: url("images/a.png");
+    margin-top: 5px;
+    position: relative;
+}
+
+body nav ul li:nth-child(2n+1):hover{
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+
+
+body nav ul li:nth-child(2n):hover{
+    background-color: #008000;
+    border-radius: 10px;
+}
+
+body nav ul li{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+body nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+body nav ul{
+    margin-top: 10px;
+}
+section{
+    margin-right: 150px;
+}
+
+article{
+    background-color: rgba(245, 230, 254, 0.9);
+    margin-bottom: 20px;
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    /*padding-right: 30px;*/
+}
+
+#webColors{
+    background-color: red;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#RGBA{
+    background-color: #008000;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#\#HSLHSV{
+    background-color: #800080;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+article p:first-line{
+    font-style: italic;
+}
+article footer{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+article footer a{
+    font-size: 0.9rem;
+    /*text-decoration: none;*/
+    color: #5B526C;
+}
+
+article p:first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+article p{
+    padding-top: 30px;
+}
+
+
+
+
+
+

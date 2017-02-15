@@ -1,0 +1,303 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    height: 780px;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    background-image: url("images/dark-wood.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+header{
+    width: 1000px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("images/header-page.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header h1{
+    text-align: right;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+nav {
+    width: 1000px;
+    height: 32px;
+    background-image: url("images/header-page.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+
+nav ul li:hover a{
+    color: #000000;
+    cursor: pointer;
+}
+
+nav ul li:first-of-type a{
+    color: #000000;
+}
+
+main{
+    background-color: #ffffff;
+    width: 1000px;
+    height: 570px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+figure{
+    float: left;
+    width: 330px;
+    text-align: left;
+    border: thin silver solid;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 5px;
+    size: 1.5em;
+}
+
+figure img{
+    width: 330px;
+}
+
+figcaption{
+    color: #999690;
+    font-size: 1.3rem;
+}
+aside{
+    float: right;
+    display: inline-block;
+    text-align: left;
+    width: 280px;
+}
+
+.popular-recipes{
+    margin-right: 40px;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.popular-recipes h2{
+    font-size: 1.9rem;
+    color: #DF6581;
+    padding-right: 30px;
+}
+
+.popular-recipes ul {
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.popular-recipes ul li{
+    padding: 15px;
+    border-top: thin silver solid;
+}
+
+.popular-recipes ul li:first-of-type{
+    border-color: transparent;
+}
+
+.popular-recipes ul li:hover{
+    background-color: #EFEFEF;
+    border-color:  transparent;
+}
+
+.popular-recipes ul li:hover a{
+
+    color: #9F88A1;
+}
+
+li:hover+li{
+    border-color: transparent;
+}
+
+.popular-recipes ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #DF6581;
+}
+
+.courses{
+    width: 70%;
+    margin-right: 0;
+    display: inline-block;
+    border-right: thin silver solid;
+    height: 550px;
+}
+article{
+    /*width: 70%;*/
+    /*text-align: left;*/
+    display:inline-block;
+    /*background-color: #ffffff;*/
+}
+
+article div{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+article div h2{
+    color: #666666;
+    font-size: 1.8rem;
+    padding-left: 360px;
+    padding-top: 20px;
+}
+
+article div h3{
+    color: #DEC57C;
+    font-size:1.3rem;
+    padding-left: 360px;
+    padding-top: 10px;
+}
+
+p{
+    color: #717D87;
+    padding-left: 375px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+/*article > div {*/
+    /*float: right;*/
+/*}*/
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #AEACA8;
+    margin-top: 5px;
+    height: 30px;
+    color: #ffffff;
+    padding-top: 15px;
+
+}
+
